@@ -57,7 +57,7 @@ def ED_TCN(n_nodes, pool_sizes, conv_lens, n_classes, n_feat, max_len,
       loss='categorical_crossentropy', causal=False, 
       optimizer="rmsprop", activation='norm_relu',
       compile_model=True):
-  """ED_TCN model for segemation.
+  """Colin's ED_TCN model for segemation.
   Args:
     n_nodes: number of filter.
     pool_sizes: up/down sample stride.
